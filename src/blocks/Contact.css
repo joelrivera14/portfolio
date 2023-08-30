@@ -1,0 +1,51 @@
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px 0 0 0;
+  background: #f9f8f6;
+  height: 100vh;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__label {
+  color: #f7cebb;
+  padding: 20px 0 2px 0;
+}
+.contact__input {
+  padding: 0;
+  margin: 0;
+  outline-color: #f7cebb;
+  height: 40px;
+  width: 500px;
+  border: none;
+  background-color: #f9f8f6;
+}
+
+.contact__textArea {
+  background-color: #f9f8f6;
+  outline-color: #f7cebb;
+  border: solid #f7cebb 2px;
+  height: 40px;
+}
+
+.contact__submit {
+  border: none;
+  border-radius: 100px;
+  background: none;
+  height: 40px;
+  margin: 30px 0 0 0;
+  padding: 0;
+  cursor: pointer;
+  background-color: #f7cebb;
+  color: #f9f8f6;
+}
+
+.contact__error {
+  color: red;
+  margin: 0;
+}
