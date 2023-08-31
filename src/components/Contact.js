@@ -80,6 +80,7 @@ export const Contact = () => {
           name="message"
           value={values.message}
           onChange={handleChange}
+          required
         />
         <input type="submit" value="Send" className="contact__submit" />
       </form>

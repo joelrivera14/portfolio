@@ -1,7 +1,5 @@
 {
-  "name": "se_project_react",
-  "homepage": "https://www.weatherwear.crabdance.com",
-  "deploy": "npm run build && scp -r ./build/* jorivera114@www.weatherwear.crabdance.com:/home/jorivera114/frontend",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,8 +18,7 @@
     "build": "react-scripts build",
     "test": "jest",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "scp -r -i path/to/ssh/key ./build/* jorivera114@weatherwear.crabdance.com:/home/jorivera114/frontend"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [

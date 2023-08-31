@@ -1,3 +1,11 @@
+.project__parent {
+  display: flex;
+  height: 100vh;
+  background-color: red;
+  background-color: #f9f8f6;
+  align-items: center;
+}
+
 .project__videos {
   display: flex;
   gap: 25px;
