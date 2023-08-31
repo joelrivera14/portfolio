@@ -15,7 +15,7 @@ function App() {
     <BrowserRouter>
       <CurrentUserContext.Provider value={currentUser}>
         <Header />
-        <Route exact path="/">
+        <Route exact path="/portfolio">
           <Main />
         </Route>
         <Route path="/projects">
