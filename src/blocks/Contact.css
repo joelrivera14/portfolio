@@ -1,10 +1,4 @@
 .contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 100px 0 0 0;
-  background: #f9f8f6;
-  height: 100vh;
 }
 
 .contact__form {
@@ -48,4 +42,23 @@
 .contact__error {
   color: red;
   margin: 0;
+}
+
+.contact__logo {
+  height: 40px;
+  width: 40px;
+}
+
+.c {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 100px 0 0 0;
+  background: #f9f8f6;
+}
+
+.c__logo-holder {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0 0 0;
 }
