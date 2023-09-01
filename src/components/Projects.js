@@ -5,7 +5,6 @@ import "../blocks/Projects.css";
 export const Projects = () => {
   return (
     <div className="project__parent">
-      <div>Test</div>
       <div className="project__videos">
         <div className="project__video">
           <iframe
