@@ -1,5 +1,6 @@
 .main {
   display: flex;
+  flex-direction: column;
   background: #f9f8f6;
   height: 100vh;
   justify-content: center;
@@ -8,9 +9,6 @@
 
 .main__container {
   display: flex;
-}
-
-.main__container_hello {
 }
 
 .main__face {
@@ -80,6 +78,17 @@
   z-index: 1;
   top: 100px;
   left: 100px;
+}
+
+.main__icons {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0 0 0;
+}
+
+.main__icon {
+  width: 40px;
+  height: 40px;
 }
 /* 
 background: #8296df; */

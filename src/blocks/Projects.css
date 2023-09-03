@@ -1,17 +1,20 @@
 .project__parent {
   display: flex;
+  flex-direction: column-reverse;
   height: 100vh;
   background-color: #f9f8f6;
-  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .project__videos {
   display: flex;
-  gap: 25px;
+  gap: 21px;
   padding: 20px;
   background-color: #f9f8f6;
   overflow-y: hidden;
   overflow-x: scroll;
+  align-items: flex-end;
 }
 
 .project__videos::-webkit-scrollbar {
@@ -64,4 +67,8 @@
 
 .project__anchor {
   text-decoration: none;
+}
+
+.project__caption {
+  color: #f7cebb;
 }

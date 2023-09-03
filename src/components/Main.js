@@ -1,6 +1,12 @@
-import { useState } from "react";
+import css from "../images/cssicon.svg";
+import html from "../images/htmlicon.svg";
+import js from "../images/jsicon.svg";
+import react from "../images/reacticon.svg";
+import node from "../images/nodeicon.svg";
+import mongo from "../images/mongodbicon.svg";
+import jira from "../images/jira.svg";
 import "../blocks/Main.css";
-function Main({}) {
+function Main() {
   return (
     <div>
       <div className="main">
@@ -33,6 +39,15 @@ function Main({}) {
               </div>
             </div>
           </div>
+        </div>
+        <div className="main__icons">
+          <img src={html} alt="" className="main__icon" />
+          <img src={css} alt="" className="main__icon" />
+          <img src={js} alt="" className="main__icon" />
+          <img src={react} alt="" className="main__icon" />
+          <img src={node} alt="" className="main__icon" />
+          <img src={mongo} alt="" className="main__icon" />
+          <img src={jira} alt="" className="main__icon" />
         </div>
       </div>
     </div>
