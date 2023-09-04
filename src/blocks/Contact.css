@@ -7,13 +7,13 @@
 }
 
 .contact__label {
-  color: #f7cebb;
+  color: #ecbca3;
   padding: 20px 0 2px 0;
 }
 .contact__input {
   padding: 0;
   margin: 0;
-  outline-color: #f7cebb;
+  outline-color: #ecbca3;
   height: 40px;
   width: 500px;
   border: none;
@@ -22,8 +22,8 @@
 
 .contact__textArea {
   background-color: #f9f8f6;
-  outline-color: #f7cebb;
-  border: solid #f7cebb 2px;
+  outline-color: #ecbca3;
+  border: solid #ecbca3 2px;
   height: 40px;
 }
 
@@ -35,7 +35,7 @@
   margin: 30px 0 0 0;
   padding: 0;
   cursor: pointer;
-  background-color: #f7cebb;
+  background-color: #ecbca3;
   color: #f9f8f6;
 }
 

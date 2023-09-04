@@ -18,7 +18,7 @@
 
 .header__name {
   margin: 0;
-  color: #f7cebb;
+  color: #ecbca3;
 }
 
 .header__name:hover {
@@ -51,7 +51,7 @@
 .header__projects {
   cursor: pointer;
   margin: 0;
-  color: #f7cebb;
+  color: #ecbca3;
 }
 
 .header__projects:hover {
@@ -62,7 +62,7 @@
   cursor: pointer;
   color: black;
   margin: 0;
-  color: #f7cebb;
+  color: #ecbca3;
 }
 
 .header__contact:hover {

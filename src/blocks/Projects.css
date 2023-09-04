@@ -48,7 +48,7 @@
 .project__button-1 {
   width: 40px;
   display: flex;
-  background: #f7cebb;
+  background: #ecbca3;
   color: #f9f8f6;
   justify-content: center;
   border-radius: 5px;
@@ -58,7 +58,7 @@
 .project__button-2 {
   width: 40px;
   display: flex;
-  background: #f7cebb;
+  background: #ecbca3;
   color: #f9f8f6;
   justify-content: center;
   border-radius: 5px;
@@ -70,5 +70,5 @@
 }
 
 .project__caption {
-  color: #f7cebb;
+  color: #ecbca3;
 }
