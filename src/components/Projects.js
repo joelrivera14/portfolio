@@ -6,6 +6,15 @@ export const Projects = () => {
   const [isHovering, setIsHovering] = useState(false);
   const [isFloating, setIsFloating] = useState(false);
   const [isLevating, setIsLevatating] = useState(false);
+  const [floating, setFloating] = useState(false);
+
+  const handleMouseFloat = () => {
+    setFloating(true);
+  };
+
+  const handleMouseUnfloat = () => {
+    setFloating(false);
+  };
 
   const handleMouseOver = () => {
     setIsHovering(true);
@@ -39,19 +48,58 @@ export const Projects = () => {
       {isFloating && (
         <div className="project__caption">
           A website that kind of mocks Instagram with the ability to upload,
-          delete and like images. Use of HTML/CSS and JavaScript to build the
-          frontend while the backend was handled by a local server.
+          delete and like images.
         </div>
       )}
       {isLevating && (
         <div className="project__caption">
           A website that recommends different clothing based off temperature.
-          Use of React, node, express and mongoDB. Authentication and
-          authorization added to website so that users could sign up/log in.
+          Use of React, node, express and mongoDB.
+        </div>
+      )}
+      {floating && (
+        <div className="project__caption">
+          An ecommerce website where the user can enjoy a full shopping
+          experience.
         </div>
       )}
 
       <div className="project__videos">
+        <div
+          className="project__video"
+          onMouseOver={handleMouseFloat}
+          onMouseOut={handleMouseUnfloat}
+        >
+          <iframe
+            className="video"
+            width="480"
+            height="315"
+            src="https://www.youtube.com/embed/MmHGAMulfaw?si=inLqibKlgjgy3VHD"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <div className="project__buttons">
+            <a
+              className="project__anchor"
+              href="https://snazzy-sherbet-7f5380.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="project__button-1">Live</div>
+            </a>
+            <a
+              href="https://github.com/joelrivera14/crwn-clothing"
+              target="_blank"
+              rel="noreferrer"
+              className="project__anchor"
+            >
+              <div className="project__button-2">Code</div>
+            </a>
+          </div>
+        </div>
+
         <div
           className="project__video"
           onMouseOver={handleMouseOver}

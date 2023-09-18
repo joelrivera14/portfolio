@@ -59,9 +59,7 @@ export const Contact = () => {
             required
             onChange={handleChange}
           />
-          {errors.user_name && (
-            <p className="contact__error">{errors.user_name}</p>
-          )}
+
           <label className="contact__label">Email</label>
           <input
             type="email"
@@ -72,9 +70,7 @@ export const Contact = () => {
             value={values.user_email}
             onChange={handleChange}
           />
-          {errors.user_email && (
-            <p className="contact__error">{errors.user_email}</p>
-          )}
+
           <label className="contact__label ">Message</label>
           <textarea
             className="contact__textArea"
