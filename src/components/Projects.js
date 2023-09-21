@@ -61,7 +61,7 @@ export const Projects = () => {
         <div className="project__caption">
           An ecommerce website where the user can enjoy a full shopping
           experience. use 4242 4242 4242 4242 to get the card function to work
-          as its only in test mode.
+          as its only in Stripes test mode.
         </div>
       )}
 
