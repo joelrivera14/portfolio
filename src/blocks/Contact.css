@@ -43,7 +43,7 @@
 
 .c {
   display: flex;
-  height: 100vh;
+
   justify-content: center;
   padding: 100px 0 0 0;
   background: #f9f8f6;

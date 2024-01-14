@@ -3,43 +3,9 @@ import { useState } from "react";
 import "../blocks/Projects.css";
 
 export const Projects = () => {
-  const [isHovering, setIsHovering] = useState(false);
-  const [isFloating, setIsFloating] = useState(false);
-  const [isLevating, setIsLevatating] = useState(false);
-  const [floating, setFloating] = useState(false);
-
-  const handleMouseFloat = () => {
-    setFloating(true);
-  };
-
-  const handleMouseUnfloat = () => {
-    setFloating(false);
-  };
-
-  const handleMouseOver = () => {
-    setIsHovering(true);
-  };
-
-  const handleMouseOut = () => {
-    setIsHovering(false);
-  };
-  const handleMouseOv = () => {
-    setIsFloating(true);
-  };
-
-  const handleMouseOu = () => {
-    setIsFloating(false);
-  };
-  const handleMouseOn = () => {
-    setIsLevatating(true);
-  };
-
-  const handleMouseOff = () => {
-    setIsLevatating(false);
-  };
   return (
     <div className="project__parent">
-      {isHovering && (
+      {/* {isHovering && (
         <div className="project__caption">
           The first project I completed while part of the TripleTen (previously
           'practicum') bootcamp.
@@ -63,14 +29,10 @@ export const Projects = () => {
           experience. use 4242 4242 4242 4242 to get the card function to work
           as its only in Stripes test mode.
         </div>
-      )}
+      )} */}
 
       <div className="project__videos">
-        <div
-          className="project__video"
-          onMouseOver={handleMouseFloat}
-          onMouseOut={handleMouseUnfloat}
-        >
+        <div className="project__video">
           <iframe
             className="video"
             width="480"
@@ -101,11 +63,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div
-          className="project__video"
-          onMouseOver={handleMouseOver}
-          onMouseOut={handleMouseOut}
-        >
+        <div className="project__video">
           <iframe
             className="video"
             width="480"
@@ -135,12 +93,9 @@ export const Projects = () => {
             </a>
           </div>
         </div>
-
-        <div
-          className="project__video"
-          onMouseOver={handleMouseOv}
-          onMouseOut={handleMouseOu}
-        >
+      </div>
+      <div className="project__videos">
+        <div className="project__video">
           <iframe
             className="video"
             width="480"
@@ -171,11 +126,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div
-          className="project__video"
-          onMouseOver={handleMouseOn}
-          onMouseOut={handleMouseOff}
-        >
+        <div className="project__video">
           <iframe
             className="video"
             width="480"
