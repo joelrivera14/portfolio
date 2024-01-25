@@ -83,7 +83,7 @@ export const Contact = () => {
         </form>
         <div className="c__logo-holder">
           <a
-            href="https://github.com/joelrivera14?tab=repositories"
+            href="https://github.com/joelrivera14"
             target="_blank"
             rel="noreferrer"
           >
